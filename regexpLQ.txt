@@ -1,0 +1,15 @@
+{"n":"Birmingham","i":"inns_suites","p":[33.353175,-86.783656],"s":"AL","c":"1"},
+{"n":"Birmingham","i":"inns","p":[33.430991,-86.708318],"s":"AL","c":"1"},
+{"n":"Homewood","i":"inns_suites","p":[33.455237,-86.81964],"s":"AL","c":"1"},
+{"n":"Huntsville","i":"inns_suites","p":[34.73842,-86.656945],"s":"AL","c":"1"},
+
+					becomes: 
+
+Birmingham,inns_suites,33.353175,-86.783656,AL
+Birmingham,inns,33.430991,-86.708318,AL
+Homewood,inns_suites,33.455237,-86.81964,AL
+Huntsville,inns_suites,34.73842,-86.656945,AL
+
+				using regular expression:
+
+s/^.*"n":"(.+)","i":"(.+)","p":\[([\d\.\-]+),([\d\.\-]+)],"s":"(\w+)","c":"(.+)".*$/\1,\2,\3,\4,\5/;
