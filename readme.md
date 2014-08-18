@@ -1,6 +1,6 @@
 # Mitch Hedberg and GIS
 
-Data dump of Denny's and La Quinta locations. For more information, see [http://njgeo.org/2014/01/30/mitch-hedberg-and-gis/]()
+Data dump of Denny's and La Quinta locations. For more information, see http://njgeo.org/2014/01/30/mitch-hedberg-and-gis/
 
 ## Files Included
 
